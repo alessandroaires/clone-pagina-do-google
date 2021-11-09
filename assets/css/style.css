@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+header .img1,
+header .img2{
+    max-width: 30px;
+    max-height: 30px;
+    width: 100%;
+    height: auto;
+}
+
+header .img1{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+header .img2{
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+
+input{
+    width: 500px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    background-image: url('../image/Screenshot_3.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    text-indent: 30px;
+    margin-left: 50px;
+}
+
+.busca{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+ .img3{ 
+    max-width: 20px;
+    max-height: 18px;
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+.icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    right: 70px;
+    top: 2px;
+}
+
+
+button{
+    background-color: #F8F9FA;
+    border: none;
+    padding: 10px;
+    color: #444;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+}
+
+footer h4{
+    background-color: #F2F2F2;
+    color: rgb(168, 165, 165);
+    font-weight: 100;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+}
+.menu1,
+.menu2,
+.nav{
+    background-color: #F2F2F2;
+}
+.menu1 ul,
+.menu2 ul{
+    display: flex;
+    padding: 15px 30px;
+    list-style: none;
+}
+
+.menu1 a,
+.menu2 a{
+    color: rgb(168, 165, 165);
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 20px;
+}
